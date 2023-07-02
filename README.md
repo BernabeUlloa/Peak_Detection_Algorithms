@@ -1,5 +1,6 @@
 # Peak_Detection_Algorithms
 Accurate detection of R-peak is essential for the diagnosis of arrhythmias such as premature atrial contraction, tachycardia and bradycardia. However, effective detection of R-peak remains difficult in a dynamic and noisy environment due to variable waveform morphology. This is even more difficult when the ECG signal is affected by noise. That is why it is important to choose a proper algorithm for the type of signal to be processed.
+
 The main results of the use of three R-peak detection algorithms on an ECG signal from the MIT-BIH Arrhythmia Database [1] are presented here.
 ## Pan and Tompkins
 The Pan and Tompkins algorithm [2] is a method based on low complexity thresholds, so it is relatively simple and has a low computational cost, adaptable, accurate and reliable, making it one of the most widely used. The algorithm is sensitive to inter- and intra-subject variability such as amplitude and shape of R peaks. Sensitive to changes in heart rate. Need for parameter adjustment.
